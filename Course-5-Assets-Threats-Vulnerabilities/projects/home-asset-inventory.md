@@ -34,7 +34,7 @@ In this project, I conducted a home network asset inventory and classification e
 
 ### High Priority Assets — Restricted
 
-**Desktop Computer and External Hard Drive** are classified as **Restricted** because they contain the most sensitive business and personal data on the network. The desktop stores financial documents, client files, and personal photos that should only be accessible to the homeowner. The external hard drive contains backup copies of all critical business data — if stolen or compromised, this data could expose the entire business operation. Both require strong access controls, encryption, and physical security measures.
+**Desktop Computer and External Hard Drive** are classified as **Restricted** because they contain the most sensitive business and personal data on the network. The desktop stores financial documents, client files, and personal photos that should only be accessible to the homeowner. The external hard drive contains backup copies of all critical business data if stolen or compromised, this data could expose the entire business operation. Both require strong access controls, encryption, and physical security measures.
 
 **Laptop Computer** is also classified as **Restricted** due to its mobility. Unlike the desktop, the laptop travels outside the home network and frequently connects to untrusted public Wi-Fi networks. This significantly increases its attack surface. A compromised laptop could provide an attacker with direct access to business emails, financial software, and client communications while also serving as an entry point back into the home network through VPN connections.
 
@@ -50,7 +50,7 @@ In this project, I conducted a home network asset inventory and classification e
 
 ### Lower Priority Assets — Internal-only
 
-**Guest Smartphone** is classified as **Internal-only** because it belongs to a visitor rather than the homeowner and does not store business data. However, it still represents a network security risk because the device owner may not maintain proper security hygiene — including outdated software, weak passwords, or malware. Isolating guest devices on a separate network segment or VLAN would reduce this risk significantly.
+**Guest Smartphone** is classified as **Internal-only** because it belongs to a visitor rather than the homeowner and does not store business data. However, it still represents a network security risk because the device owner may not maintain proper security hygiene, including outdated software, weak passwords, or malware. Isolating guest devices on a separate network segment or VLAN would reduce this risk significantly.
 
 ---
 
@@ -90,4 +90,4 @@ This asset inventory exercise demonstrated several important security principles
 
 ## Summary
 
-This project involved creating a structured home network asset inventory by identifying six network-connected devices, documenting their characteristics, and classifying each according to its sensitivity level. Three assets were classified as Restricted due to their storage of sensitive business and personal data, two as Confidential due to their network-level access and always-on connectivity, and one as Internal-only due to its limited access and third-party ownership. The exercise reinforced that effective asset management requires not only identifying what assets exist but understanding their risk profile, ownership, connectivity, and potential business impact if compromised — skills directly applicable to enterprise asset management, GRC compliance frameworks, and SOC analyst operations.
+This project involved creating a structured home network asset inventory by identifying six network-connected devices, documenting their characteristics, and classifying each according to its sensitivity level. Three assets were classified as Restricted due to their storage of sensitive business and personal data, two as Confidential due to their network-level access and always-on connectivity, and one as Internal-only due to its limited access and third-party ownership. The exercise reinforced that effective asset management requires not only identifying what assets exist but understanding their risk profile, ownership, connectivity, and potential business impact if compromised, skills directly applicable to enterprise asset management, GRC compliance frameworks, and SOC analyst operations.
